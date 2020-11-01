@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"/>
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+
+        <link rel="shortcut icon" href="/static/favicon.png">
+
+        <meta charset="utf-8"/>
+        <meta content="initial-scale=1, width=device-width" name="viewport"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+       <Title>Twitter Data Extraction</Title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="page-header">
+                <h1>
+                    <Center><h1>Twitter Data Extraction</h1></center>
+                    <small>{% block subtext %}{% endblock %}</small>
+                </h1>
+            </div>
+            {% block body %}{% endblock %}
+        </div>
+    </body>
+</html>
